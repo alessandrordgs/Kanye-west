@@ -28,10 +28,16 @@ div img {
  max-height: 18rem;
  min-width: 20rem;
  border-radius: 0.8rem;
- margin: 2rem;
+}
+.margin{
+  margin: 0 1rem 0 1rem;
 }
 .quote p {
   font-weight: 500;
+}
+.quote p a {
+  text-decoration: none;
+  color: #000;
 }
 
 .quote p.kanye {
