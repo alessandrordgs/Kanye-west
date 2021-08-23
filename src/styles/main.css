@@ -1,0 +1,50 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  gap: 1rem;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  line-height: 1.8rem;
+}
+header p {
+  font-weight: 400;
+}
+
+div img {
+  height: 8rem;
+  border-radius: 1rem;
+}
+
+.quote{
+ background-color: #f0f0f0;
+ min-height: 4rem;
+ padding: 1rem;
+ max-height: 18rem;
+ min-width: 20rem;
+ border-radius: 0.8rem;
+ margin: 2rem;
+}
+.quote p {
+  font-weight: 500;
+}
+
+.quote p.kanye {
+  text-align: right;
+  font-weight: 400;
+}
+
+button {
+  width: 16rem;
+  height: 2.5rem;
+  background-color:#653281 ;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 1rem;
+}
+
