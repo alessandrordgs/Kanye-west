@@ -41,9 +41,12 @@ function App() {
      </div>
 
       <button onClick={handleKanye}>Fale Kanye</button>
+      
+      <footer> <a href="https://alessandrordgs.vercel.app">Feito por Alessandro ❤</a></footer>
 
      </ div>
       
+
     </>
   );
 }
