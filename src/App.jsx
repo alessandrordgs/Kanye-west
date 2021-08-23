@@ -54,9 +54,9 @@ function App() {
         <p> <a href={`https://www.youtube.com/results?search_query=Kanye+West+${music.music}`} target="_blank" rel="noopener noreferrer">{music.music}</a></p> 
      </div>
 
-      <button onClick={handleKanye}>Fale Kanye</button>
+      <button onClick={handleKanye}>Fale comigo Kanye</button>
   
-      <button onClick={newMusic}>Ou Peça uma musica</button>
+      <button onClick={newMusic}>Peça uma musica para Kanye</button>
       
       <footer> <a href="https://alessandrordgs.vercel.app">Feito por Alessandro ❤</a></footer>
 
